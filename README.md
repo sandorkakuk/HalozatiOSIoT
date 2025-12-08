@@ -11,3 +11,20 @@ Hálózati Operációs Rendszerek és IOT technológia
 > | 9-10. óra | Alapvető hálózati szolgáltatások |
 > | 11-12 óra | Hálati operációs rendszerek |
 > | 13-14 óra | IoT |
+
+
+# Üdvözöllek az előadásaim gyűjteményében!
+
+Itt találod a Slides.com-ról exportált prezentációimat.
+
+## 2024-es előadások
+
+- [Bevezetés a programozásba](bevezetes/)
+- [Marketing stratégia](marketing-talk/)
+
+## 2023-as előadások
+
+- [Régebbi projekt bemutató](projekt-2023/)
+
+---
+*Készítette: A Te Neved*
