@@ -1,7 +1,5 @@
 Hálózati Operációs rendszerek és IoT technológiák előadások prezentációi
 
-- [Hulladék](hulladek/)
-
 >
 > | óra  | témakör | link |
 > | ------------- | ------------- |----------|
