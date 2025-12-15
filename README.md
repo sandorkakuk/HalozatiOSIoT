@@ -5,3 +5,4 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | ------------- | ------------- |----------|
 > | 1-2 óra | A hálózat fogalma |
 > | x óra | IoT hulladék | [link](/hulladek)|
+> | | Modern IoT Tudományok| [link](/modern)|
