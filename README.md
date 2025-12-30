@@ -1,7 +1,7 @@
 Hálózati Operációs rendszerek és IoT technológiák előadások prezentációi
 
 >
-> | óra  | témakör | link |
+> nappali  | témakör | levelező |
 > | ------------- | ------------- |----------|
 > | 1-2 óra | A hálózat fogalma |
 > | | IIoT | |
@@ -15,6 +15,6 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | | GDPR és IoT | |
 > | | IoT adatkezelés és adatvizualizáció ||
 > | | IoT SH|| 
-> | | IoT, Big Data és Smart City | [link](/bdsc/index.html)|
-> | | Az IoT ökológiai lábnyoma,| [link](/hulladek/index.html)|
-> | 27-28. óra | [Modern IoT Tudományok és az IoT jövője](/modern/index.html)|
+> | | IoT, [Big Data és Smart City](/bdsc/index.html) |
+> | | [Az IoT ökológiai lábnyoma](/hulladek/index.html)
+> | 27-28. óra | [Modern IoT Tudományok és az IoT jövője](/modern/index.html) |
