@@ -13,7 +13,7 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | | Etikus hackelés és IoT pentest, | |
 > | | IoT a közlekedésben || 
 > | | GDPR és IoT | |
-> | | IoT adatkezelés és adatvizualizáció ||
+> | | [IoT adatkezelés és adatvizualizáció](/db/index.html) |
 > | | [IoT SH](/iotsh/index.html) |
 > | | [Big Data és Smart City](/bdsc/index.html) |
 > | | [Az IoT ökológiai lábnyoma](/hulladek/index.html)
