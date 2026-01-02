@@ -12,7 +12,7 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | | Digitális ikrek ||
 > | | Etikus hackelés és IoT pentest, | |
 > | | IoT a közlekedésben || 
-> | | GDPR és IoT | |
+> | | [GDPR és IoT](/gdpr/index.html) |
 > | | [IoT adatkezelés és adatvizualizáció](/db/index.html) |
 > | | [IoT SH](/iotsh/index.html) |
 > | | [Big Data és Smart City](/bdsc/index.html) |
