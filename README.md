@@ -11,7 +11,7 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | | IoT energiagazdálkodás | |
 > | | Digitális ikrek ||
 > | | Etikus hackelés és IoT pentest, | |
-> | | IoT a közlekedésben || 
+> | | [IoT a közlekedésben](/trav/index.html) |
 > | | [GDPR és IoT](/gdpr/index.html) |
 > | | [IoT adatkezelés és adatvizualizáció](/db/index.html) |
 > | | [IoT SH](/iotsh/index.html) |
