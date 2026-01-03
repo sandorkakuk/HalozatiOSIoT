@@ -8,7 +8,7 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | | IoMT ||
 > | | AIoT | |
 > | | AgriIoT | |
-> | | IoT energiagazdálkodás | |
+> | | [IoT energiagazdálkodás](/energy/index.html) |
 > | | [Digitális ikrek](/twins/index.html) |
 > | | [Etikus hackelés és IoT pentest](/etik/index.html) |
 > | | [IoT a közlekedésben](/trav/index.html) |
