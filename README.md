@@ -9,7 +9,7 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | | AIoT | |
 > | | AgriIoT | |
 > | | IoT energiagazdálkodás | |
-> | | Digitális ikrek ||
+> | | [Digitális ikrek](/twins/index.html) |
 > | | [Etikus hackelés és IoT pentest](/etik/index.html) |
 > | | [IoT a közlekedésben](/trav/index.html) |
 > | | [GDPR és IoT](/gdpr/index.html) |
