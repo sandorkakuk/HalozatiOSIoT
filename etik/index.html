@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": "deck"}' />
+		<title>deck</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-white-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="555fd3af7fe9746623d8dace70bbe433"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 252.5px;" data-name="text-68f654" data-block-id="1b496259a61fc6577a0cf8bfff19b249"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html=""><h1>Etikus hackelés és IoT pentest</h1></div></div></section><section data-id="5f0314f200f0297aa5a1389da76d36e9"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 250.755px; height: auto;" data-block-id="af5d110bb632aa5cfcade57e06ac8f52"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;"><p><span style="font-size:1.4em">Hogyan tesztelhető egy IoT rendszer biztonsága?</span></p></div></div></section><section data-id="cde597213ad583eadf822afdbe07f71f"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 175.097px; height: auto;" data-block-id="782479d48a1c37847bc57c1284073954"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;"><h1>fogalom</h1></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 287px; height: auto;" data-block-id="cb8b8916dc834fae4c3e56f4f075a585"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;">
+<p>Az IoT rendszerek biztonsági tesztelése etikus hackeléssel (pentest) a sebezhetőségek feltárására és a védelem megerősítésére szolgál.</p>
+
+<p>A folyamat az eszközök, hálózatok és alkalmazások átfogó vizsgálatát jelenti, amely során az etikus hacker valós támadási szcenáriókat szimulál.</p>
+</div></div></section><section data-id="7f0239f25d36eef4ae80c3ef68deb014"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 313px;" data-name="text-66c8ea" data-block-id="f8eb7b778a6a5b5833c68680a2f82ab8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html=""><h2>Miért fontos az IoT pentest?</h2></div></div></section><section data-id="851b3c0c99eb864c9093e21e22b42078"><div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 105px; height: auto;" data-block-id="510c84ef12abbd98a99c182a2387783a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 10;"><h2><span style="font-size:0.9em">IoT sérülékenység</span></h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 253px; height: auto;" data-block-id="d1d7b4a3f2e9edc3b648fe4ca28333bb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 11;"><p>Gyenge jelszavak, elavult firmware, hiányos titkosítás.</p></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 528px; top: 105px; height: auto;" data-block-id="7c1aad681593360e175d072bd488d12e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 12;"><h2><span style="font-size:0.9em">Hálózati kitettség</span></h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 528px; top: 253px; height: auto;" data-block-id="97640ebb2f27196d75a95775bf84f0e2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 13;"><p>Internetre kapcsolt eszközök mint belépési pontok.</p></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 437.778px; height: auto;" data-block-id="2321763ab06e8d535581dc1185d91bd5" data-name="text-03aef4"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 15;"><h2><span style="font-size:0.9em">Adatvédelem</span></h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 511.778px; height: auto;" data-block-id="7a1e97ceea2da8ec47a6b41166c70f05" data-name="text-091446"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 16;"><p>Érzékeny szenzoradatok kiszivárgásának kockázata.</p></div></div></section><section data-id="3ca590e3c8dc76220b0816ef8c4d8988"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 172.5px;" data-name="text-43e336" data-block-id="cc594b365fc07e6f77dd084526bdd677"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html="">
+<h2>IoT pentest lépései</h2>
+
+<ul>
+	<li>
+<strong>Felderítés:</strong> eszközök, protokollok, OSINT.</li>
+	<li>
+<strong>Sebezhetőségek:</strong> portok, szolgáltatások, firmware interfészek (UART, JTAG).</li>
+	<li>
+<strong>Kihasználás:</strong> brute force, overflow, API manipuláció, MITM.</li>
+	<li>
+<strong>Riport:</strong> részletes dokumentáció és javítási javaslatok.</li>
+	<li>
+<strong>Re-test:</strong> javítások ellenőrzése.</li>
+</ul>
+</div></div></section><section data-id="9f5017c29efebcc875c4607750d73f76"><div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 105px; height: auto;" data-block-id="d9110d880bd1e600e0de60fc5735a104"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 10;"><h2>UART</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 595.397px; left: 48px; top: 179px; height: auto;" data-block-id="de7e6d74e821f3700a8ee9500f261a07"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 11;"><p>Az UART (Universal Asynchronous Receiver and Transmitter) egy univerzális aszinkron vevő és adó, ami egy hardvereszköz a számítógépekben és más elektronikus eszközökben, amely az <strong>adatok soros továbbításá</strong>ra és vételére szolgál.</p></div></div></section><section data-id="68483053a447d692e2c2806dbb19634b"><div class="sl-block" data-block-type="image" style="width: 960px; height: 640px; left: 0px; top: 70.984px; min-width: 1px; min-height: 1px;" data-block-id="379b3e68ee2b5c7b55d0df7b977b5f42"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="1536" data-natural-height="1024" data-lazy-loaded="" data-src="deck-097449/3fbcfb9a499f4aa3d4ef61df5633f7a0.png"></div></div></section><section data-id="e3afc4d2d2d7906e7c6e2ee83124b43f"><div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 105px; height: auto;" data-block-id="6c0a04652a221acd56408b2c2df20c92"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 10;"><h2>JTAG</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 643.165px; left: 48px; top: 210px; height: auto;" data-block-id="55825aef54056be4c5b075a29ccaf4ff"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 11;"><p>A Joint Test Action Group rövidítése, egy iparági szabvány, amelyet nyomtatott áramkörök (PCB-k) gyártás utáni tesztelésére és a tervezésük ellenőrzésére hoztak létre. A technológia lehetővé teszi a beágyazott eszközök soros kommunikációs felületén keresztüli <strong>hozzáférést a hardver hibakereséséhez </strong>és programozásához</p></div></div></section><section data-id="91d2f110088f5b29cf096ac13e49a589"><div class="sl-block" data-block-type="image" style="width: 960px; height: 640px; left: 0px; top: 72px; min-width: 1px; min-height: 1px;" data-block-id="2740997dbfc47593b24fcfba74a4c6df"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="1536" data-natural-height="1024" data-lazy-loaded="" data-src="deck-097449/2b402d18d4fd63f2546fae01d679fcf2.png"></div></div></section><section data-id="a7222bc839e98fb362f53300ca95c40c"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 105.242px; height: auto;" data-block-id="44d1c63fd8c24568ff756e4f8d1d724a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;"><h2> Tipikus IoT sebezhetőségek</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 213.198px; height: auto;" data-block-id="ae36e141e40d7b3440656f6fec22abe5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>
+	<p><span><strong>Hardcoded jelszavak</strong> a firmware-ben.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Titkosítatlan kommunikáció</strong> (pl. HTTPS hiánya).</span></p>
+	</li>
+	<li>
+	<p><span><strong>Nyitott debug interfészek</strong> (UART, JTAG).</span></p>
+	</li>
+	<li>
+	<p><span><strong>Frissítési mechanizmus hiánya</strong> → eszközök elavulnak és támadhatóvá válnak.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Hibás hozzáférés-kezelés</strong> → jogosulatlan felhasználók is hozzáférhetnek.</span></p>
+	</li>
+</ul></div></div></section><section data-id="4eae770687a66482d627c402cca5c71a"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 57px; height: auto;" data-block-id="cc3938f8f49a901b341746ca6fc6e5b4"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;"><h1>Etikus hackelés és IoT pentest módszertan</h1></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 388.473px; height: auto;" data-block-id="9b351b842a185ebbddb67a8faf84462c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;"><p>Az etikus hackerek valós támadásokat utánoznak, hogy a gyenge pontokat még a rosszindulatú támadók előtt feltárják. A folyamat során engedéllyel dolgoznak, és minden eredményt átláthatóan dokumentálnak, segítve a szervezeteket a védelem megerősítésében</p></div></div></section><section data-id="e07766de3dbae7953e073f8072690853"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 106px;" data-name="text-b9d662" data-block-id="f7179ff2a4fb4c714fbd3a7342e21355"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html="">
+      <h2>Részletes IoT pentest checklist</h2>
+      <ul>
+        <li>
+<strong>Előkészítés:</strong> engedélyek, scope, célok.</li>
+        <li>
+<strong>Felderítés:</strong> IP/MAC, portok, OSINT.</li>
+        <li>
+<strong>Firmware/hardver:</strong> verziók, hash, debug interfészek, hardcoded titkok.</li>
+        <li>
+<strong>Kommunikáció:</strong> forgalmi elemzés, TLS/SSL, API fuzzing.</li>
+        <li>
+<strong>Autentikáció:</strong> gyenge jelszavak, MFA, jogosultságok.</li>
+        <li>
+<strong>Frissítések:</strong> OTA biztonság, aláírás, rollback ellenállás.</li>
+        <li>
+<strong>Exploitation:</strong> DoS, MITM, replay, fizikai támadások.</li>
+        <li>
+<strong>Riport/prioritás:</strong> javítások rangsorolása, ajánlások.</li>
+      </ul>
+    </div></div></section><section data-id="9d5e7fe09608f63df7bcc19791cab31e"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 46.275px;" data-name="text-197515" data-block-id="632484de99356fe2a392023bd7443a73"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html="" style="z-index: 10;">
+<h2>Példa Bash script időzített ellenőrzéshez</h2>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 300px; left: 230px; top: 245.275px;" data-name="code-dd9b33" data-block-id="ca8d8c3c6705e5488b3ace9c434a4abe"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">#!/bin/bash
+
+# IoT Pentest Automatikus Ellenőrző Script
+# Futás: pl. cron jobbal időzítve (pl. hetente)
+
+# IP tartomány (testre szabható)
+IP_RANGE="192.168.1.0/24"
+
+# Eredmények logfájl
+LOGFILE="/var/log/iot_pentest.log"
+DATE=$(date '+%Y-%m-%d %H:%M:%S')
+
+echo "=== IoT Pentest futtatás: $DATE ===" &gt;&gt; $LOGFILE
+
+# 1. Eszközök felderítése
+echo "[*] Eszközök felderítése..." &gt;&gt; $LOGFILE
+nmap -sn $IP_RANGE -oG - | awk '/Up$/{print $2}' &gt; /tmp/iot_hosts.txt
+
+# 2. Portok és szolgáltatások vizsgálata
+echo "[*] Portvizsgálat..." &gt;&gt; $LOGFILE
+while read host; do
+    echo "&gt;&gt;&gt; $host" &gt;&gt; $LOGFILE
+    nmap -sV -Pn $host &gt;&gt; $LOGFILE
+done &lt; /tmp/iot_hosts.txt
+
+# 3. Gyenge jelszavak ellenőrzése (SSH/FTP/Telnet)
+echo "[*] Gyenge jelszavak tesztelése..." &gt;&gt; $LOGFILE
+for host in $(cat /tmp/iot_hosts.txt); do
+    hydra -l admin -P /usr/share/wordlists/rockyou.txt ssh://$host &gt;&gt; $LOGFILE
+done
+
+# 4. HTTPS ellenőrzés (titkosítás megléte)
+echo "[*] HTTPS ellenőrzés..." &gt;&gt; $LOGFILE
+for host in $(cat /tmp/iot_hosts.txt); do
+    curl -Is https://$host --connect-timeout 5 | grep "HTTP" &gt;&gt; $LOGFILE
+done
+
+# 5. Firmware verzió lekérdezés (ha van API)
+# Példa: REST API endpoint ellenőrzés
+for host in $(cat /tmp/iot_hosts.txt); do
+    echo "[*] Firmware info $host" &gt;&gt; $LOGFILE
+    curl -s http://$host/api/firmware &gt;&gt; $LOGFILE
+done
+
+echo "=== Pentest futás vége ===" &gt;&gt; $LOGFILE
+</code></pre></div></div></section><section data-id="5df3c3fb7fe98ac9e2ad127a71cd2f0b"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 132.407px; height: auto;" data-block-id="71b8f0912d08fd7ca6f6304052f308c7"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;"><h1>OS</h1></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 230.407px; height: auto;" data-block-id="3ad727c7bda1e7ca76df683340b753f6"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;"><p>Az etikus hackeléshez és IoT pentesthez használt operációs rendszerek főként olyan IoT-specifikus platformok, amelyek biztonsági funkciókat, könnyű testreszabhatóságot és hálózati protokollok támogatását kínálják. Ezeket a rendszereket gyakran választják kutatók és etikus hackerek, hogy valós környezetben vizsgálják az IoT eszközök sebezhetőségeit.</p></div></div></section><section data-id="a9d6b26bff5b73b2e2228a8530477ce0"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;" data-block-id="67a2a567fe7eaa6aaba15a8e6e57231c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;"><h2>Title Text</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 263px; height: auto;" data-block-id="4e6709f91a28b7e8ec70485d6a0629b3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Text</p></div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 576px; left: -1.42109e-14px; top: 62px; min-width: 1px; min-height: 1px;" data-name="image-474b80" data-block-id="96e398a24f038ba187989512a092bc42"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="1000" data-natural-height="600" data-lazy-loaded="" data-src="deck-097449/f1a424eb8950ed927c852a8f6b8f6f33.png"></div></div></section><section data-id="7473dcf10341fb452bd1d6fe274706dd"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 155px;" data-name="text-5227b0" data-block-id="528e3e3305489dbf8fc1c2b9d7a3cf16"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html="">
+      <h2>Etikus hacker operációs rendszerek</h2>
+      <ul>
+        <li>
+<strong>Kali Linux:</strong> ipari szabvány, széles eszközkészlet.</li>
+        <li>
+<strong>Parrot OS:</strong> könnyű, privacy-fókuszú.</li>
+        <li>
+<strong>BlackArch:</strong> nagy eszközhalmaz, haladóknak.</li>
+        <li>
+<strong>BackBox:</strong> Ubuntu-alapú, egyszerű.</li>
+        <li>
+<strong>Pentoo:</strong> Gentoo-alapú, testreszabható.</li>
+      </ul>
+    </div></div></section><section data-id="da67feeabe84c006b44d946c487d303d"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 252.5px; height: auto;" data-block-id="f9ffb41c6302a5aaf631937edb4ac4ae"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;"><h1> Miért fontosak ezek etikus hackeléshez?</h1></div></div>
+</section><section data-id="9f9f637aea497b41b9344decd4e3d55a"><div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 105px; height: auto;" data-block-id="8bcf2f1a66237c8dda8e0d363be06266"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 10;"><h2>Valós környezet szimulálása</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 327px; height: auto;" data-block-id="674e0403a8dd71f4a528fe18034df36d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 11;"><p>Ezek az OS-ek futnak ipari szenzorokon, okosotthon eszközökön, egészségügyi IoT rendszereken.</p></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 528px; top: 105px; height: auto;" data-block-id="74df41970d3ca24e89d3ce8c059c890a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 12;"><h2>Biztonsági funkciók tesztelése</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 544.43px; top: 327px; height: auto;" data-block-id="c59243be33803919195625330085270d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 13;"><p>Titkosítás, biztonságos boot, frissítési mechanizmusok vizsgálata.</p></div></div></section><section data-id="e746978d619dac64a3c0e0b7655f2b27"><div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 105px; height: auto;" data-block-id="c85e5c82be8fad440664a97329f0af4b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 10;"><h2>Hálózati protokollok ellenőrzése</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 338.916px; height: auto;" data-block-id="7e26fa55f86e43d9855016654f96ed8e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 11;"><p>IPv6, MQTT, CoAP, Bluetooth Low Energy – mind támadási felület lehet.</p></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 528px; top: 105px; height: auto;" data-block-id="4d5cd8308b7facbea9345c12f83cef7c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 12;"><h2>Firmware elemzés:</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 528px; top: 327px; height: auto;" data-block-id="ccc27343d1c2245a2684b90d40283da4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 13;">
+<p>Ezek az OS-ek gyakran nyílt forráskódúak, így könnyen vizsgálhatók és módosíthatók.</p>
+
+<p> </p>
+</div></div></section><section data-id="e03418f2e1aa1ebe6bc8fcb44472d05d"><div class="sl-block" data-block-type="image" style="width: 830px; height: 660px; left: 65px; top: 20px; min-width: 1px; min-height: 1px;" data-name="image-a5c0a2" data-block-id="ec88f2cf35f5715e45e5a2cd763bacd6"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="830" data-natural-height="660" data-lazy-loaded="" data-src="deck-097449/92df8f2aa349623eb126130142ed4ea4.png"></div></div></section><section data-id="f280805957b2799696f67a227f7b10b9"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 159.931px; height: auto;" data-block-id="1a00531f478002dd2738a287158f8eda"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;"><h2>FreeRTOS (Amazon)</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 263px; height: auto;" data-block-id="abc0c1017f1bfeccb5f22c67b6eaa9d4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>
+	<p><span><strong>Elterjedtség</strong>: Az egyik legszélesebb körben használt RTOS IoT eszközökön.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Biztonsági funkciók</strong>: Integrált TLS, titkosítás, AWS IoT Core kompatibilitás.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Etikus hackeléshez</strong>: Gyakran vizsgálják a frissítési mechanizmusokat és a hálózati protokollokat.</span></p>
+	</li>
+</ul></div></div></section><section data-id="79788b1aff27f7e4d200cf831b18b323"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 163.722px; height: auto;" data-block-id="7b80ca817470b9ec68dc58276d58ad00"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;"><h2>Zephyr OS</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 263px; height: auto;" data-block-id="ac34ded548b314d2be51f220f4b7ba98"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>
+	<p><span><strong>Elterjedtség</strong>: Nyílt forráskódú, Linux Foundation által támogatott.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Biztonsági funkciók</strong>: Secure boot, titkosítási modulok, sandboxing.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Etikus hackeléshez</strong>: Jó választás protokollok és firmware biztonság tesztelésére.</span></p>
+	</li>
+</ul></div></div></section><section data-id="4ef971f2b3ac069ef42f844cbe01f7ed"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 149.82px; height: auto;" data-block-id="edcb9930f363ebf7d4fa7b5291e8d20c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;"><h2>RIOT OS</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 263px; height: auto;" data-block-id="39b357d0b86acc73bc4801e1d9b4d454"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>
+	<p><span><strong>Elterjedtség</strong>: Mikrokontrollerekhez optimalizált, kutatási környezetben népszerű.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Biztonsági funkciók</strong>: IPv6, 6LoWPAN, CoAP támogatás.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Etikus hackeléshez</strong>: Hálózati protokollok és szenzorhálózatok sebezhetőségeinek vizsgálatára ideális.</span></p>
+	</li>
+</ul></div></div></section><section data-id="41be2f4196bf9f1517e466125bda6156"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 153.611px; height: auto;" data-block-id="c0836b376b10bebcbe5ccb428bd9b6a8"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;"><h2>Contiki-NG</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 263px; height: auto;" data-block-id="e600bb563c9f7290e8865fbc149e16cd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>
+	<p><span><strong>Elterjedtség</strong>: Szenzorhálózatokban és alacsony fogyasztású IoT eszközökön.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Biztonsági funkciók</strong>: Beépített biztonsági modulok, IoT kutatásokban széles körben használt.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Etikus hackeléshez</strong>: Gyakran használják energiahatékony hálózatok támadási szimulációjára.</span></p>
+	</li>
+</ul></div></div></section><section data-id="b1d009836e70696dad7442faa517da96"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 163.722px; height: auto;" data-block-id="2a0584edceb749839dfd77c0124a8ccc"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;"><h2>Ubuntu Core</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 263px; height: auto;" data-block-id="0ea64616cad9fc4751e4c6502589e726"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>
+	<p><span><strong>Elterjedtség</strong>: Linux-alapú, ipari IoT környezetekben népszerű.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Biztonsági funkciók</strong>: Snap csomagok, sandboxing, erős frissítési modell.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Etikus hackeléshez</strong>: Alkalmas komplex IoT rendszerek (pl. okosotthon, ipari automatizálás) biztonsági tesztelésére.</span></p>
+	</li>
+</ul></div></div></section><section data-id="9446b3c207cce551773c11e006427fac"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 61.3481px; height: auto;" data-block-id="95473a8dcc32bc046198477811bd8bf6"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;"><h2>Miért ezek a legnépszerűbbek?</h2></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 252.32px; height: auto;" data-block-id="24f0fc082542a3f619c243f008c9df86"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>
+	<p><span><strong>Nyílt forráskódúak</strong> → könnyen vizsgálhatók és módosíthatók.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Széles körben elterjedtek</strong> → valós IoT eszközökön futnak, így relevánsak a teszteléshez.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Biztonsági funkciók beépítve</strong> → titkosítás, secure boot, sandboxing.</span></p>
+	</li>
+	<li>
+	<p><span><strong>Kutatási támogatás</strong> → aktív közösség és dokumentáció segíti az etikus hackereket.</span></p>
+	</li>
+</ul></div></div></section><section data-id="8a1e4189a6c339634e9eaf2e8c750622"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0.0005px; top: 148.298px;" data-name="text-1bf7cc" data-block-id="8c71cea53d12d6641a24cf9f353d5e67"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html="" style="z-index: 11;">
+<h2>IoT szektorhoz ajánlási mátrix</h2>
+
+<ul>
+	<li>
+<strong>Kali Linux:</strong> hálózati felderítés, protokollok, exploitok.</li>
+	<li>
+<strong>Parrot OS:</strong> gyors vizsgálatok, adatvédelem.</li>
+	<li>
+<strong>BlackArch:</strong> firmware RE, mély kutatás.</li>
+	<li>
+<strong>BackBox:</strong> oktatási labor, alap ellenőrzések.</li>
+	<li>
+<strong>Pentoo:</strong> Zigbee/LoRaWAN/Modbus fókusz, speciális protokollok.</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 580.617px; height: 387.078px; left: 189.692px; top: 350px; min-width: 1px; min-height: 1px;" data-name="image-6ee045" data-block-id="e3402641b78b145485d5ff905001a205"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="1536" data-natural-height="1024" data-lazy-loaded="" data-src="deck-097449/0541151d3a5d77ee22a6254da3b395a7.png"></div></div></section><section data-id="619638da4d492f09411c71b812eb2fdd"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 155px;" data-name="text-c3429a" data-block-id="b6bf8227753843c1093a819202fefaa2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html="">
+<h2>Szimulált Zephyr OS forgatókönyv</h2>
+
+<ul>
+	<li>
+<strong>Felderítés:</strong> nmap, portok (80/443/1883).</li>
+	<li>
+<strong>Kommunikáció:</strong> Wireshark, TLS ellenőrzés, replay attack.</li>
+	<li>
+<strong>Firmware:</strong> binwalk/strings, hardcoded jelszavak.</li>
+	<li>
+<strong>Autentikáció:</strong> brute force, privilege escalation.</li>
+	<li>
+<strong>Javaslatok:</strong> MQTT TLS, biztonságos frissítés</li>
+</ul>
+</div></div></section><section data-id="e1c1dec8ee7eecfe430668999ac872be"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 175.5px;" data-name="text-2ac06a" data-block-id="26fffe1428c75c73145d12d527b89905"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html="">
+      <h2>IoT pentest labor terv</h2>
+      <ul>
+        <li>
+<strong>Hardver:</strong> okosizzó, dugalj, szenzorok, külön AP/VLAN.</li>
+        <li>
+<strong>Eszközök:</strong> Nmap, Wireshark, Hydra, Binwalk, Ghidra, MQTT tooling, Metasploit.</li>
+        <li>
+<strong>Hálózat:</strong> elkülönített SSID/VLAN, capture, tűzfal szabályok.</li>
+        <li>
+<strong>Forgatókönyvek:</strong> felderítés, kommunikáció, autentikáció, firmware, OTA.</li>
+      </ul>
+    </div></div></section><section data-id="441db8740661d9e6c07fab742b56f799"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 53px;" data-name="text-3f9f1e" data-block-id="3442de0be313d42a08a00a55c173dcc2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html="">
+<h2>IoT támadási szcenárió mátrix</h2>
+
+<ul>
+	<li>
+<strong>Hálózati felderítés:</strong> Kali, Parrot/BlackArch jó, BackBox alap, Pentoo haladó.</li>
+	<li>
+<strong>Kommunikációs biztonság:</strong> Kali , Parrot jó, BlackArch jó, Pentoo speciális.</li>
+	<li>
+<strong>Autentikáció:</strong> Kali  Parrot/BlackArch jó, BackBox alap, Pentoo haladó.</li>
+	<li>
+<strong>Firmware elemzés:</strong> BlackArch  Kali jó, Pentoo jó, Parrot/BackBox korlátozott.</li>
+	<li>
+<strong>OTA/frissítések:</strong> Kali/BlackArch jó, Pentoo speciális protokollokban.</li>
+	<li>
+<strong>Exploit szimuláció:</strong> Kali/BlackArch, Parrot jó, BackBox alap, Pentoo jó.</li>
+</ul>
+</div></div></section><section data-id="be86cfba07d2eeaa8d544b3ff88e1259"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 214.5px;" data-name="text-14dc96" data-block-id="2084d42de0dad02f733d71f47055fe47"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html="">
+      <h2>Etikus keretek</h2>
+      <ul>
+        <li>
+<strong>Engedély:</strong> csak saját eszközökön és jogszerűen.</li>
+        <li>
+<strong>Biztonság:</strong> laborban, izolált hálózaton tesztelj.</li>
+        <li>
+<strong>Dokumentáció:</strong> minden lépés és eredmény rögzítése.</li>
+        <li>
+<strong>Újraellenőrzés:</strong> javítások validálása.</li>
+      </ul>
+    </div></div></section><section data-id="2822f2892ba5353ad98722de51c0a667"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 220px;" data-name="text-3e73b5" data-block-id="c2f7fc20fe684704239ffffe4d3014ca"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" data-has-custom-html="">
+<h2>Következő lépések</h2>
+
+<ul>
+	<li>
+<strong>Automatizálás:</strong> riport generálás (HTML/PDF), időzített futások.</li>
+	<li>
+<strong>OS választás:</strong> célhoz illesztve (Kali vs BlackArch vs Pentoo).</li>
+	<li>
+<strong>Lab bővítés:</strong> Zigbee/LoRaWAN gateway, ipari protokollok.</li>
+</ul>
+</div></div></section><section data-id="74e7395c7c896e97fdee29aa059e4157"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;" data-block-id="386b71d01cb913a0bea63bf47bba6c6b"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;"><h1>Köszönöm a figyelmet!</h1></div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":3495440,"slug":"deck-097449","title":"deck","description":"","width":960,"height":700,"margin":0.05,"visibility":"all","published_at":"2025-11-24T04:21:36.577Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/4a7284deab872a656e83f19b318c8c9a/thumb.jpg?1764031914","view_count":0,"user":{"id":3015713,"username":"sandorkakuk","name":"Sándor Kakuk","description":"","thumbnail_url":"https://lh3.googleusercontent.com/a/ACg8ocLH29PgsA0QZ0y2Oghi81cbTcTPSdfI_eqe0Rm4PrDA_PtL_akD0w=s96-c","account_type":"lite","team_id":null,"settings":{"id":57630448,"present_controls":true,"present_upsizing":true,"present_pointer":true,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":null,"should_loop":false,"share_notes":null,"slide_number":null,"slide_count":34,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1767444869441,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":null,"language":"en","notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				scrollActivationWidth: null,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+
+	</body>
+</html>
