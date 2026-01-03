@@ -3,7 +3,7 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 >
 > nappali  | témakör | levelező |
 > | ------------- | ------------- |----------|
-> | 1-2 óra | A hálózat fogalma |
+> | 1-2 óra | [A hálózat fogalma](/fogalom/index.html) |
 > | | IIoT | |
 > | | IoMT ||
 > | | AIoT | |
