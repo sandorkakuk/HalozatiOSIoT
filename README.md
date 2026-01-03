@@ -10,7 +10,7 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | | AgriIoT | |
 > | | IoT energiagazdálkodás | |
 > | | Digitális ikrek ||
-> | | Etikus hackelés és IoT pentest, | |
+> | | [Etikus hackelés és IoT pentest](/etik/index.html) |
 > | | [IoT a közlekedésben](/trav/index.html) |
 > | | [GDPR és IoT](/gdpr/index.html) |
 > | | [IoT adatkezelés és adatvizualizáció](/db/index.html) |
