@@ -4,7 +4,14 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > nappali  | témakör | levelező |
 > | ------------- | ------------- |----------|
 > | 1-2 óra | [A hálózat fogalma](/fogalom/index.html) |
-> | | IIoT | |
+> | 1-2 óra | [A hálózat működése](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQBVL-NAx2gRTa-si4U3UZJAAb_Fu86AUKPTJl246W_C900?e=f9Gmdc) |
+> | |  Ipv4 és Ipv6 címzés. | |
+> | | álózati címkiosztás. | |
+> | | Router,hub,switch működése | |
+> | | Az alapvető hálózati szolgáltatások (DHCP,DNS,WINS) működése.  | |
+> | | [Hálózati operációs rendszerek biztonságának alapjai](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQD9i4JOgmz4SoALweihEQ1xAcln-BwTLBzxfFIPxvLEQ3c?e=hAFa9Y).  | |
+> | | [IoT alapjai, szenzorok és működésük, alapvető beállításaik.](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQDi8ju1pU6IQobmReQg_aMEAQH7q4E9lYl-iBPYFYW6NJw?e=is0BHO)  ||
+> | | [IIoT](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQDjFKXF2nKuSpydmh2Ia0n4AV6dW5k6dSgKRvif5izbXos?e=za9uXm) ||
 > | | IoMT ||
 > | | AIoT | |
 > | | AgriIoT | |
