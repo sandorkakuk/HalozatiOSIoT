@@ -14,7 +14,7 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | | [IIoT](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQDjFKXF2nKuSpydmh2Ia0n4AV6dW5k6dSgKRvif5izbXos?e=za9uXm) ||
 > | | IoMT ||
 > | | AIoT | |
-> | | AgriIoT | |
+> | | [AgriIoT](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQC2j2aflFHETKZikizBoh9JAZ59OCwM2UNVKMSg2UX3iMY?e=gX7ikD) | |
 > | | [IoT energiagazdálkodás](/energy/index.html) |
 > | | [Digitális ikrek](/twins/index.html) |
 > | | [Etikus hackelés és IoT pentest](/etik/index.html) |
