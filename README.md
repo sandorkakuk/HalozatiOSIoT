@@ -8,7 +8,7 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | |  Ipv4 és Ipv6 címzés. | |
 > | | [Hálózati címkiosztás.](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQAns1ZAGuTPQLHprWUNHU__Acqh84DCblavZiyj6cGALtY?e=BxN52W) | |
 > | | [Router,hub,switch működése](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQCKv_ZVMe38S7zdk6EAKo7vAauylUeStVMdMM0AeoOUwp8?e=IHOqQr) | |
-> | | Az alapvető hálózati szolgáltatások (DHCP,DNS,WINS) működése.  | |
+> | | [Az alapvető hálózati szolgáltatások (DHCP,DNS,WINS) működése.](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQCbaj9EU19sTqhllyOHXK13AQe_zvDKfdF7HP-vZ18hQaA?e=Wph4Q9)  | |
 > | | [Hálózati operációs rendszerek biztonságának alapjai](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQD9i4JOgmz4SoALweihEQ1xAcln-BwTLBzxfFIPxvLEQ3c?e=hAFa9Y).  | |
 > | | [IoT alapjai, szenzorok és működésük, alapvető beállításaik.](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQDi8ju1pU6IQobmReQg_aMEAQH7q4E9lYl-iBPYFYW6NJw?e=is0BHO)  ||
 > | | [IIoT](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQDjFKXF2nKuSpydmh2Ia0n4AV6dW5k6dSgKRvif5izbXos?e=za9uXm) ||
