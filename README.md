@@ -1,8 +1,12 @@
-Hálózati Operációs rendszerek és IoT technológiák előadások prezentációi
+# A hálózati Operációs rendszerek és IoT technológiák előadásainak prezentációi
 
+> [!NOTE]
+> Az interaktív, böngészős jegyzet itt érhető el: https://sandorkakuk.github.io/HalozatiOSIoT/
+
+#
  
 > | nappali  | témakör | levelező |
-> | ------------- | ------------- |----------|
+> | ---------| ------- |----------|
 > | 1-2 óra | [A hálózat fogalma](/fogalom/index.html) | 1. óra |
 > | 3. óra | [A hálózat működése](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQBVL-NAx2gRTa-si4U3UZJAAb_Fu86AUKPTJl246W_C900?e=f9Gmdc) | |
 > | 4. óra |  Ipv4 és Ipv6 címzés. | |
