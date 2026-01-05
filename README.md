@@ -4,7 +4,7 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > nappali  | témakör | levelező |
 > | ------------- | ------------- |----------|
 > | 1-2 óra | [A hálózat fogalma](/fogalom/index.html) | 1. óra |
-> | 3. óra | [A hálózat működése](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQBVL-NAx2gRTa-si4U3UZJAAb_Fu86AUKPTJl246W_C900?e=f9Gmdc) |
+> | 3. óra | [A hálózat működése](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQBVL-NAx2gRTa-si4U3UZJAAb_Fu86AUKPTJl246W_C900?e=f9Gmdc) | |
 > | 4. óra |  Ipv4 és Ipv6 címzés. | |
 > | 5. óra | [Hálózati címkiosztás.](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQAns1ZAGuTPQLHprWUNHU__Acqh84DCblavZiyj6cGALtY?e=BxN52W) | |
 > | 6. óra | [Router,hub,switch működése](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQCKv_ZVMe38S7zdk6EAKo7vAauylUeStVMdMM0AeoOUwp8?e=IHOqQr) | |
@@ -15,13 +15,13 @@ Hálózati Operációs rendszerek és IoT technológiák előadások prezentáci
 > | 13. óra | IoMT ||
 > | 14. óra | AIoT | |
 > | 15. óra | [AgriIoT](https://nycampus-my.sharepoint.com/:b:/g/personal/kakuk_sandor_nye_hu/IQC2j2aflFHETKZikizBoh9JAZ59OCwM2UNVKMSg2UX3iMY?e=gX7ikD) | |
-> | 16-17. óra | [IoT energiagazdálkodás](/energy/index.html) |
-> | 18. óra | [Digitális ikrek](/twins/index.html) |
-> | 19-20. óra | [Etikus hackelés és IoT pentest](/etik/index.html) |
-> | 21. óra | [IoT a közlekedésben](/trav/index.html) |
-> | 22- óra | [GDPR és IoT](/gdpr/index.html) |
-> | 23. óra | [IoT adatkezelés és adatvizualizáció](/db/index.html) |
-> | 24. óra | [IoT SH](/iotsh/index.html) |
-> | 25. óra | [Big Data és Smart City](/bdsc/index.html) |
-> | 26. óra | [Az IoT ökológiai lábnyoma](/hulladek/index.html)
-> | 27-28. óra | [Modern IoT Tudományok és az IoT jövője](/modern/index.html) |
+> | 16-17. óra | [IoT energiagazdálkodás](/energy/index.html) ||
+> | 18. óra | [Digitális ikrek](/twins/index.html) ||
+> | 19-20. óra | [Etikus hackelés és IoT pentest](/etik/index.html) ||
+> | 21. óra | [IoT a közlekedésben](/trav/index.html) ||
+> | 22- óra | [GDPR és IoT](/gdpr/index.html) ||
+> | 23. óra | [IoT adatkezelés és adatvizualizáció](/db/index.html) ||
+> | 24. óra | [IoT SH](/iotsh/index.html) ||
+> | 25. óra | [Big Data és Smart City](/bdsc/index.html) ||
+> | 26. óra | [Az IoT ökológiai lábnyoma](/hulladek/index.html) ||
+> | 27-28. óra | [Modern IoT Tudományok és az IoT jövője](/modern/index.html) ||
