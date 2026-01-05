@@ -1,7 +1,6 @@
 Hálózati Operációs rendszerek és IoT technológiák előadások prezentációi
 
-> [!NOTE]
-> 
+ 
 > | nappali  | témakör | levelező |
 > | ------------- | ------------- |----------|
 > | 1-2 óra | [A hálózat fogalma](/fogalom/index.html) | 1. óra |
